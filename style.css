@@ -1,0 +1,60 @@
+h1{
+  color : purple;
+  font-width: bold;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px purple;
+}
+body{
+  text-align: center;
+  animation:change 15s infinite;
+  border-style: dashed;
+}
+@keyframes change {
+   0%   {background-color: aquamarine; left:0px; top:0px;}
+  25%  {background-color: coral;left:200px; top:0px;}
+  50%  {background-color: deeppink;left:200px; top:200px;}
+  100% {background-color: violet;left:0px; top:200px;}
+  }
+canvas{
+  width: 700px;
+  height:300px;
+  border: 3px solid magenta;
+}
+p{
+  color : purple;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+input{
+  color: purple;
+}
+.button1 {
+  background-color:peachpuff ;
+  border:1px  solid purple;
+  border-radius:5px;
+  color: purple;
+  width:100px;
+height:38px;
+font-size:20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.button2{
+  background-color:peachpuff ;
+  border: 1px solid purple;
+  border-radius:5px;
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:120px;
+height:38px;
+font-size:20px;
+  font-family: "Courier New", Courier, monospace;
+  
+}
